@@ -1,0 +1,35 @@
+<form class="form-container" [formGroup]="persona" (ngSubmit)="onSubmit()">
+    <div class="form-row">
+        <label for="usuario">Usuario</label>
+        <input id="usuario" type="text" formControlName="usuario">
+    </div>
+    <div class="form-row">
+        <label for="surname">Surnombre</label>
+        <input id="surname" type="text" formControlName="surname">
+    </div>
+    <div class="form-row">
+        <label for="password">Contraseña</label>
+        <input id="password" type="password" formControlName="password">
+    </div>
+    <div class="form-row">
+        <label for="city">Ciudad</label>
+        <input id="city" type="text" formControlName="city">
+    </div>
+    <div class="form-row">
+        <label for="name">Nombre</label>
+        <input id="name" type="text" formControlName="name">
+    </div>
+    <div class="form-row">
+        <label for="company_email">Email compañia</label>
+        <input id="company_email" type="email" formControlName="company_email">
+    </div>
+    <div class="form-row">
+        <label for="personal_email">Email personal</label>
+        <input id="personal_email" type="email" formControlName="personal_email">
+    </div>
+    <div class="form-row">
+        <label for="created_date">Fecha creación</label>
+        <input id="created_date" type="date" formControlName="created_date">
+    </div>
+    <button class="button" type="submit" >Añadir</button>
+</form>

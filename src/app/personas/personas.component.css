@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+table {
+    width: 30%;
+}
+
+button{
+    background-color: #ff0081;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 4rem
+}
